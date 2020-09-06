@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.TestActivity"></activity>
-        <activity android:name=".activities.ResultActivity" />
-        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.MainActivity" android:theme="@style/AppTheme"/>
         <activity android:name=".activities.SplashActivity"
                   android:theme="@style/SplashTheme">
             <intent-filter>
@@ -20,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3361690811677955~9342140615"/>
     </application>
 
 </manifest>

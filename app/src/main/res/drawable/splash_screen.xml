@@ -3,11 +3,11 @@
     <item
         android:drawable="@color/colorSplash"/>
 
-<!--    <item>-->
-<!--        <bitmap-->
-<!--            android:gravity="center"-->
-<!--            android:src="@mipmap/splash"/>-->
-<!--        android:src="@color/colorSplash"/>-->
-<!--    </item>-->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/img_splash"/>
+        android:src="@color/colorSplash"/>
+    </item>
 
 </layer-list>
